@@ -1,0 +1,12 @@
+<ul>
+    <li><a href="{:U(GROUP_NAME . '/Index/index')}">网站首页</a></li>
+    <li <if condition='$name eq "News"'>class="active"</if>><a href="{:U(GROUP_NAME . '/News/index')}">新闻动态</a></li>
+    <li <if condition='$name eq "Report"'>class="active"</if>><a href="{:U(GROUP_NAME . '/Report/index')}">调研报告</a></li>
+    <li <if condition='$name eq "Direct"'>class="active"</if>><a href="{:U(GROUP_NAME . '/Direct/index')}">就业指导</a></li>
+    <li <if condition='$name eq "Visit"'>class="active"</if>><a href="{:U(GROUP_NAME . '/Visit/index')}">企业观光</a></li>
+    <li <if condition='$name eq "Assess"'>class="active"</if>><a href="{:U(GROUP_NAME . '/Assess/index')}">职业测评</a></li>
+    <li <if condition='$name eq "Job"'>class="active"</if>><a href="{:U(GROUP_NAME . '/Job/index')}">就业信息</a></li>
+    <li <if condition='$name eq "Video"'>class="active"</if>><a href="{:U(GROUP_NAME . '/Video/index')}">影视频道</a></li>
+    <li <if condition='$name eq "About"'>class="active"</if>><a href="{:U(GROUP_NAME . '/About/index')}">关于职协</a></li>
+    <li><a href="{:U('Admin/Index/index')}">后台管理</a></li>
+</ul>

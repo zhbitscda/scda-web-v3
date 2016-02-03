@@ -1,0 +1,26 @@
+<div id="right">
+   <div class="right_blackgrand">
+      <div class="right_title">栏目简介</div>
+   </div>
+   <div id="sidebar">
+      <!-- inframe_1 -->
+      <div class="inframe_1">
+         <div class="introduccon">
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{$intro.introduce}</p>
+         </div>      
+      </div>
+
+      <!-- inframe_2 -->
+      <div class="inframe_2">
+         <div class="place">点击排行榜</div>
+         <!--排行榜列表-->
+         <foreach name='hot' item='v' key='k'>
+            <div class="list_2">
+               <div class="num">{$k+1}</div>
+               <a href="{:U(Group_name.'/Index/Assess/show')}?id={$v.id}">{$v.title}</a>
+            </div>
+         </foreach>                      
+      </div>  
+
+   </div>
+</div>

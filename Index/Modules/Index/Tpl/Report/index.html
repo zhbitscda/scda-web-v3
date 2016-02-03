@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<include file='Common:headerpic' />
+<title>调研报告</title>
+<link rel="stylesheet" href="__PUBLIC__/Css/report/layout.css" type="text/css" />
+<SCRIPT type=text/javascript>
+window.onload=function(){
+   var left = document.getElementById("left").clientHeight;
+   var right = 650;
+ if (left < right) //判断要自适应的DIV高度是否大于
+  {
+   right = right - 20;
+   document.getElementById("left").style.height= right+"px"; 
+  }
+  else{
+     left = left - 20; 
+document.getElementById("right").style.height= left+"px";}
+}
+</SCRIPT>
+</head>
+<body id="top">
+
+<!-- ------------------------------------- header ------------------------------------------------- -->
+<div class="wrapper">
+   <div id="headerup">
+      <div id="logo">
+         <div id="logo1"><img src="__PUBLIC__/Images/logo.png" width="60" height="60" /></div>
+         <div id="logo2"><p>大学生职业发展协会</p></div>
+      </div>
+   </div>
+
+   <div id="header">
+      <div class="fl_left"><h1><a href="#"><strong>调研</strong>报告</a></h1></div>
+      <div class="fl_right"><a href="#"><img src="__PUBLIC__/Images/demo/468x60.gif" alt="" /></a></div>
+      <br class="clear" />
+   </div>
+</div>
+
+<!-- ------------------------------------- nav --------------------------------------------------- -->
+<div class="wrapper">
+   <div id="topbar">
+      <div id="topnav">
+<include file='Common:nav' />  
+      </div>
+      <br class="clear" />
+   </div>
+</div>
+
+<!-- ------------------------------------- container ---------------------------------------------- -->
+
+<!-- picture(960X80) -->
+<div class="wrapper">
+   <div class='container'>
+      <div class="middlead"><a href="#"><img src="__PUBLIC__/Images/960X80px.png" alt="" /></a></div>
+   </div>
+</div>
+
+<div class="wrapper">
+   <div class=container>
+
+      <!--left-->
+      <div class="content">
+         <div id="left">
+            <div class="place"><img src="__PUBLIC__/Images/home.png" />&nbsp;您当前的位置:北理珠大学生职业发展协会网站&nbsp;&gt;&nbsp;调研报告</div>
+            <div class="inframe">
+    
+            <!-- 内容列表 -->
+               <foreach name='data' item='report'>
+                  <div class="list">
+                     <div class="listhead">
+                        <div class="title"><img src="__PUBLIC__/Images/arrow_go.png" alt="" /><a href="{:U(Group_name.'/Index/Report/show')}?id={$report.id}">{$report.title}</a></div>
+                        <div class="updatetime">更新时间:{$report.time|date='Y-m-d', ###}</div>
+                        <div class="clicknum">浏览次数:{$report.click}</div>
+                     </div>
+                     <div class="listfooter">{$report.summary}</div>
+                  </div>
+               </foreach>
+               
+      
+               <!-- 分页 -->
+               <div class="listlast">
+                  <div class="page">共{$page}&nbsp;&nbsp;转到第<Input type='text' name='page' size='3' maxlength='5' value='1' onKeyPress="if (event.keyCode==13) window.location='?p='+this.value;">页</div>
+               </div>
+            </div>                     
+         </div>
+      </div>
+
+      <!--right-->
+      {:W('Reportright')}
+      <br class="clear" />
+   </div>
+</div>
+
+<!-- ------------------------------------- footer ---------------------------------------------- -->
+
+<!-- friend -->
+<div class="wrapper friend">
+{:W('Friends')}
+</div>
+
+<!-- copyright -->
+<div class="wrapper copyright">
+<include file='Common:copyright' />
+</div>
+
+</body>
+</html>

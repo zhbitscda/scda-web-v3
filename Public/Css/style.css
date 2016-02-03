@@ -1,0 +1,24 @@
+@import url("skeleton.css");			/* 960 Grid + Media Query Layouts */ 
+
+
+@import url("flexslider.css");			/* Flex Slider Styles */ 
+
+
+
+
+
+
+
+
+
+
+
+#divider {
+	
+	margin: 17px 0 26px 10px;
+	
+	border-bottom: 1px solid #e1e1e1;
+
+}
+
+

@@ -1,0 +1,100 @@
+﻿/* iFocus style */
+#ifocus {
+	padding:0;
+	word-break:break-all;
+	width:650px;
+	height:250px;
+	border:1px solid #DEDEDE;
+	background-color: #1D1D1D;
+	float: left;
+	margin-top: 0;
+	margin-right: 0;
+	margin-left: 0;
+}
+#ifocus_pic {
+	display:inline;
+	position:relative;
+	float:left;
+	width:480px;
+	height:250px;
+	overflow:hidden;
+	margin:0;
+}
+#ifocus_piclist { position:absolute; }
+#ifocus_piclist li {
+	width:480px;
+	height:250px;
+	overflow:hidden;
+}
+#ifocus_piclist img {
+	width:480px;
+	height:250px;
+}
+#ifocus_btn {
+	display:inline;
+	float:right;
+	width:170px;
+	margin: 0px;
+}
+#ifocus_btn li {
+	width:170px;
+	height:48.8px;
+	cursor:pointer;
+	opacity:0.5;
+	-moz-opacity:0.5;
+	filter:alpha(opacity=50);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #373737;
+}
+#ifocus_btn img {
+	width:75px;
+	height:45px;
+	margin-top: 7px;
+	margin-bottom: 0px;
+	margin-left: 11px;
+}
+/*#ifocus_btn .current {
+	opacity:1;
+	-moz-opacity:1;
+	filter:alpha(opacity=100);
+	width: 170px;
+	height: 50px;
+	background-color: #C33;
+}*/
+#ifocus_btn .current {
+	opacity:1;
+	-moz-opacity:1;
+	filter:alpha(opacity=100);
+	width: 170px;
+	height: 50px;
+	background-image: url(../../images/focus.png);
+}
+#ifocus_opdiv {
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:480px;
+	height:35px;
+	background:#000;
+	opacity:0.5;
+	-moz-opacity:0.5;
+	filter:alpha(opacity=50);
+}
+#ifocus_tx { position:absolute; left:8px; bottom:8px; color:#FFF; }
+#ifocus_tx .normal { display:none; }
+#ifocus #ifocus_pic #ifocus_opdiv img {
+	float: right;
+	margin-top: 7px;
+	margin-right: 10px;
+}
+#ifocus #ifocus_btn ul .current h2 , #ifocus #ifocus_btn ul .normal h2{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #FFF;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin: 0px;
+	padding-top: 18px;
+}
+

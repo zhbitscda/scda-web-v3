@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>大学生职业发展协会-影视频道</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="imagetoolbar" content="no" />
+<link rel="stylesheet" href="__PUBLIC__/Css/video_details/layout.css" type="text/css" />
+<script type="text/javascript" src="__ROOT__/Data/ckplayer/ckplayer.js" charset="utf-8"></script>
+<script type="text/javascript" src="__PUBLIC__/Js/offlights.js"></script>
+<link rel="shortcut icon" href="__PUBLIC__/Images/logo.png" /> 
+</head>
+
+<body id="top">
+
+<!-- ------------------------------------- header ------------------------------------------------- -->
+<div class="wrapper">
+   <div id="headerup">
+      <div id="logo">
+         <div id="logo1"><img src="__PUBLIC__/Images/logo.png" width="60" height="60"/></div>
+         <div id="logo2"><p>大学生职业发展协会</p></div>
+      </div>
+   </div>
+
+   <div id="header">
+      <div class="fl_left"><h1><a href="#"><strong>影视</strong>频道</a></h1></div>
+      <div class="fl_right"><a href="#"><img src="__PUBLIC__/Images/demo/468x60.gif" alt="" /></a></div>
+      <br class="clear" />
+   </div>
+</div>
+
+<!-- ------------------------------------- nav --------------------------------------------------- -->
+<div class="wrapper">
+   <div id="topbar">
+      <div id="topnav">
+         <include file='Common:nav' /> 
+      </div>
+      <br class="clear" />
+   </div>
+</div>
+  
+<!-- ------------------------------------- container ---------------------------------------------- -->
+<!-- picture(960X80) -->
+<div class="wrapper">
+   <div class="container">
+      <div class="place"><div id="tt" style="margin:0 atuo;"><img src="__PUBLIC__/Images/home.png" /><p>您所在的位置:北理珠职协&nbsp;>&nbsp;影视频道&nbsp;>&nbsp;{$intro.title}</p></div></div>
+
+      <div id="video" style="position:relative;z-index: 100;width:960px;height:540px;float: left;"><div id="a1"></div></div>
+      <script type="text/javascript">
+         var flashvars={
+            f:'{$video.directory}',
+            c:0,
+            b:1
+            };
+         var params={bgcolor:'#FFF',allowFullScreen:true,allowScriptAccess:'always'};
+         CKobject.embedSWF('__ROOT__/Data/ckplayer/ckplayer.swf','a1','ckplayer_a1','960','540',flashvars,params);
+         /*
+         CKobject.embedSWF(播放器路径,容器id,播放器id/name,播放器宽,播放器高,flashvars的值,其它定义也可省略);
+         下面三行是调用html5播放器用到的
+         */
+         var video=['{$video.directory}->video/mp4'];
+         var support=['iPad','iPhone','ios','android+false','msie10+false','webKit'];
+         CKobject.embedHTML5('video','ckplayer_a1',960,520,video,flashvars,support);
+      </script>
+
+   </div>
+</div>
+
+
+<!-- ------------------------------------- footer ------------------------------------------------ -->
+
+<!-- friend -->
+<div class="wrapper">
+   <div class="footerblackground">
+{:W('Friends')}
+   </div>
+   <br class="clear" />
+</div>
+
+<!-- copyright -->
+<div class="wrapper copyright">
+<include file='Common:copyright' />
+</div>
+
+
+</body>
+</html>

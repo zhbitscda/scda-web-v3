@@ -1,0 +1,1581 @@
+[ 2013-11-19T21:55:41+08:00 ] 127.0.0.1 /scda/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.024346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024482s ]
+SQL: SHOW COLUMNS FROM `index` [ RunTime:0.030125s ]
+SQL: SELECT `id`,`cate_id`,`pic_id`,`title`,`content`,`time`,`more` FROM `index` WHERE ( `del` = 0 ) AND ( `cate_id` = 1 ) ORDER BY time desc LIMIT 3   [ RunTime:0.006161s ]
+SQL: SHOW COLUMNS FROM `index_cate` [ RunTime:0.010744s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000268s ]
+SQL: SHOW COLUMNS FROM `upload` [ RunTime:0.038876s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='21' ) LIMIT 1   [ RunTime:0.016966s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000168s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.000297s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000145s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.000221s ]
+SQL: SELECT `id`,`cate_id`,`pic_id`,`title`,`content`,`time`,`more` FROM `index` WHERE ( `del` = 0 ) AND ( `cate_id` = 2 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000292s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.000216s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.000223s ]
+SQL: SELECT `id`,`cate_id`,`pic_id`,`title`,`content`,`time`,`more` FROM `index` WHERE ( `del` = 0 ) AND ( `cate_id` = 3 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000253s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.000212s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.000194s ]
+SQL: SELECT `id`,`cate_id`,`pic_id`,`title`,`content`,`time`,`more` FROM `index` WHERE ( `del` = 0 ) AND ( `cate_id` = 4 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000489s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000762s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.000425s ]
+SQL: SELECT `id`,`cate_id`,`pic_id`,`title`,`content`,`time`,`more` FROM `index` WHERE ( `del` = 0 ) AND ( `cate_id` = 5 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000253s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT `id`,`cate_id`,`pic_id`,`title`,`content`,`time`,`more` FROM `index` WHERE ( `del` = 0 ) AND ( `cate_id` = 6 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000258s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.000233s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT `id`,`cate_id`,`pic_id`,`title`,`content`,`time`,`more` FROM `index` WHERE ( `del` = 0 ) AND ( `cate_id` = 7 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000267s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='20' ) LIMIT 1   [ RunTime:0.000197s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: name E:\wamp\www\scda\Index\Temp\Cache\Index\a82aed5f987f84a626c85a291db06960.php 第 35 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\scda\Index\Temp\Cache\Index\a82aed5f987f84a626c85a291db06960.php 第 36 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\scda\Index\Temp\Cache\Index\a82aed5f987f84a626c85a291db06960.php 第 37 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\scda\Index\Temp\Cache\Index\a82aed5f987f84a626c85a291db06960.php 第 38 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\scda\Index\Temp\Cache\Index\a82aed5f987f84a626c85a291db06960.php 第 39 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\scda\Index\Temp\Cache\Index\a82aed5f987f84a626c85a291db06960.php 第 40 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\scda\Index\Temp\Cache\Index\a82aed5f987f84a626c85a291db06960.php 第 41 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\scda\Index\Temp\Cache\Index\a82aed5f987f84a626c85a291db06960.php 第 42 行.
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.030624s ]
+SQL: SELECT * FROM `friends` LIMIT 10   [ RunTime:0.000743s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.308432s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.308547s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.011194s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005440s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002913s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021878s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002716s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002925s ]
+
+[ 2013-11-19T21:55:44+08:00 ] 127.0.0.1 /scda/index.php/Admin/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.018913s ]
+INFO: [ route_check ] --END-- [ RunTime:0.019044s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002224s ]
+
+[ 2013-11-19T21:55:44+08:00 ] 127.0.0.1 /scda/index.php/Admin/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001222s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001390s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001345s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.053864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053986s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000844s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000775s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000739s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000786s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003306s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001189s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001259s ]
+
+[ 2013-11-19T21:55:51+08:00 ] 127.0.0.1 /scda/index.php/Admin/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000835s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.032625s ]
+SQL: SELECT * FROM `user` WHERE ( `username` = '110201041004' ) LIMIT 1   [ RunTime:0.000268s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030964s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000828s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000767s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000738s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003280s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000881s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2013-11-19T21:55:56+08:00 ] 127.0.0.1 /scda/index.php/Admin/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000976s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001131s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.001484s ]
+SQL: SELECT * FROM `user` WHERE ( `username` = '110201041004' ) LIMIT 1   [ RunTime:0.000148s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007125s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001281s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001061s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001057s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000873s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004479s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000989s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2013-11-19T21:56:02+08:00 ] 127.0.0.1 /scda/index.php/Admin/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001883s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002096s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.001414s ]
+SQL: SELECT * FROM `user` WHERE ( `username` = '110201041004' ) LIMIT 1   [ RunTime:0.000141s ]
+SQL: UPDATE `user` SET `logintime`=1384869362,`loginip`='127.0.0.1' WHERE ( `id` = 2 ) [ RunTime:0.042437s ]
+
+[ 2013-11-19T21:56:02+08:00 ] 127.0.0.1 /scda/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001867s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002077s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002044s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.001378s ]
+SQL: UPDATE `user` SET `logintime`=1384869362 WHERE ( `id` = 2 ) [ RunTime:0.000236s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037562s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001139s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000960s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000918s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000986s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004203s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001003s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001081s ]
+
+[ 2013-11-19T21:56:05+08:00 ] 127.0.0.1 /scda/index.php/Admin/Rbac/role
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001035s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001170s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003019s ]
+SQL: UPDATE `user` SET `logintime`=1384869365 WHERE ( `id` = 2 ) [ RunTime:0.031942s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.130608s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=1 and node.status=1 [ RunTime:0.000989s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=47 and node.status=1 [ RunTime:0.000717s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=4 and node.status=1 [ RunTime:0.000792s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=13 and node.status=1 [ RunTime:0.000805s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=18 and node.status=1 [ RunTime:0.000722s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=22 and node.status=1 [ RunTime:0.001038s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=25 and node.status=1 [ RunTime:0.000675s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=30 and node.status=1 [ RunTime:0.000656s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=34 and node.status=1 [ RunTime:0.000673s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=38 and node.status=1 [ RunTime:0.000727s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=43 and node.status=1 [ RunTime:0.000683s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=45 and node.status=1 [ RunTime:0.000974s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.002577s ]
+SQL: SELECT * FROM `role`  [ RunTime:0.000740s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.044736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045023s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001331s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001505s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001363s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005695s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001187s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001279s ]
+
+[ 2013-11-19T21:56:09+08:00 ] 127.0.0.1 /scda/index.php/Admin/Rbac/node
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000905s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.001350s ]
+SQL: UPDATE `user` SET `logintime`=1384869368 WHERE ( `id` = 2 ) [ RunTime:0.044266s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000294s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=1 and node.status=1 [ RunTime:0.000242s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=47 and node.status=1 [ RunTime:0.000428s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=4 and node.status=1 [ RunTime:0.000200s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=13 and node.status=1 [ RunTime:0.000239s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=18 and node.status=1 [ RunTime:0.000234s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=22 and node.status=1 [ RunTime:0.000233s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=25 and node.status=1 [ RunTime:0.000235s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=30 and node.status=1 [ RunTime:0.000232s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=34 and node.status=1 [ RunTime:0.000228s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=38 and node.status=1 [ RunTime:0.000227s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=43 and node.status=1 [ RunTime:0.000227s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=45 and node.status=1 [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `node` [ RunTime:0.002827s ]
+SQL: SELECT `id`,`name`,`title`,`pid` FROM `node` ORDER BY sort  [ RunTime:0.000609s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033723s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001183s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001157s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001248s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005007s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001047s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001144s ]
+
+[ 2013-11-19T21:56:10+08:00 ] 127.0.0.1 /scda/index.php/Admin/Rbac/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001138s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.001385s ]
+SQL: UPDATE `user` SET `logintime`=1384869370 WHERE ( `id` = 2 ) [ RunTime:0.091330s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000314s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=1 and node.status=1 [ RunTime:0.000298s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=47 and node.status=1 [ RunTime:0.000300s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=4 and node.status=1 [ RunTime:0.000292s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=13 and node.status=1 [ RunTime:0.000299s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=18 and node.status=1 [ RunTime:0.000454s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=22 and node.status=1 [ RunTime:0.000306s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=25 and node.status=1 [ RunTime:0.000240s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=30 and node.status=1 [ RunTime:0.000259s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=34 and node.status=1 [ RunTime:0.000257s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=38 and node.status=1 [ RunTime:0.000257s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=43 and node.status=1 [ RunTime:0.000255s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=45 and node.status=1 [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.002053s ]
+SQL: SELECT `id`,`pid`,`username`,`logintime`,`loginip`,`lock` FROM `user`  [ RunTime:0.001849s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.001412s ]
+NOTIC: [8] Undefined index:  mapping_order E:\wamp\www\scda\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index:  mapping_limit E:\wamp\www\scda\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+NOTIC: [8] Undefined index:  relation_foreign_key E:\wamp\www\scda\ThinkPHP\Extend\Model\RelationModel.class.php 第 190 行.
+SQL: SELECT b.id,name,remark FROM role_user AS a, role AS b WHERE a.role_id = b.id AND a. user_id='2' [ RunTime:0.000316s ]
+NOTIC: [8] Undefined index:  mapping_order E:\wamp\www\scda\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index:  mapping_limit E:\wamp\www\scda\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+NOTIC: [8] Undefined index:  relation_foreign_key E:\wamp\www\scda\ThinkPHP\Extend\Model\RelationModel.class.php 第 190 行.
+SQL: SELECT b.id,name,remark FROM role_user AS a, role AS b WHERE a.role_id = b.id AND a. user_id='3' [ RunTime:0.000310s ]
+NOTIC: [8] Undefined index:  mapping_order E:\wamp\www\scda\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index:  mapping_limit E:\wamp\www\scda\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+NOTIC: [8] Undefined index:  relation_foreign_key E:\wamp\www\scda\ThinkPHP\Extend\Model\RelationModel.class.php 第 190 行.
+SQL: SELECT b.id,name,remark FROM role_user AS a, role AS b WHERE a.role_id = b.id AND a. user_id='4' [ RunTime:0.000313s ]
+NOTIC: [8] Undefined index:  mapping_order E:\wamp\www\scda\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index:  mapping_limit E:\wamp\www\scda\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+NOTIC: [8] Undefined index:  relation_foreign_key E:\wamp\www\scda\ThinkPHP\Extend\Model\RelationModel.class.php 第 190 行.
+SQL: SELECT b.id,name,remark FROM role_user AS a, role AS b WHERE a.role_id = b.id AND a. user_id='5' [ RunTime:0.000333s ]
+NOTIC: [8] Undefined index:  mapping_order E:\wamp\www\scda\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index:  mapping_limit E:\wamp\www\scda\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+NOTIC: [8] Undefined index:  relation_foreign_key E:\wamp\www\scda\ThinkPHP\Extend\Model\RelationModel.class.php 第 190 行.
+SQL: SELECT b.id,name,remark FROM role_user AS a, role AS b WHERE a.role_id = b.id AND a. user_id='6' [ RunTime:0.000259s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.043714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043864s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001140s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000995s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000943s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001004s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004297s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001019s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001096s ]
+
+[ 2013-11-19T21:56:13+08:00 ] 127.0.0.1 /scda/index.php/Admin/Rbac/role
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000789s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.002083s ]
+SQL: UPDATE `user` SET `logintime`=1384869373 WHERE ( `id` = 2 ) [ RunTime:0.105061s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000232s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=1 and node.status=1 [ RunTime:0.000274s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=47 and node.status=1 [ RunTime:0.000299s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=4 and node.status=1 [ RunTime:0.000293s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=13 and node.status=1 [ RunTime:0.000299s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=18 and node.status=1 [ RunTime:0.000283s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=22 and node.status=1 [ RunTime:0.000297s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=25 and node.status=1 [ RunTime:0.000297s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=30 and node.status=1 [ RunTime:0.000297s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=34 and node.status=1 [ RunTime:0.000294s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=38 and node.status=1 [ RunTime:0.000295s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=43 and node.status=1 [ RunTime:0.000526s ]
+SQL: select node.id,node.name from role as role,role_user as user,access as access ,node as node where user.user_id='2' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=45 and node.status=1 [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.002863s ]
+SQL: SELECT * FROM `role`  [ RunTime:0.000397s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015703s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001376s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001250s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001195s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005560s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001270s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001370s ]
+
+[ 2013-11-19T21:56:59+08:00 ] 127.0.0.1 /scda/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000972s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001113s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `index` [ RunTime:0.001552s ]
+SQL: SELECT `id`,`cate_id`,`pic_id`,`title`,`content`,`time`,`more` FROM `index` WHERE ( `del` = 0 ) AND ( `cate_id` = 1 ) ORDER BY time desc LIMIT 3   [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `index_cate` [ RunTime:0.001359s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000135s ]
+SQL: SHOW COLUMNS FROM `upload` [ RunTime:0.001145s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='21' ) LIMIT 1   [ RunTime:0.000118s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000114s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.000111s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000101s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.000092s ]
+SQL: SELECT `id`,`cate_id`,`pic_id`,`title`,`content`,`time`,`more` FROM `index` WHERE ( `del` = 0 ) AND ( `cate_id` = 2 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000112s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.000112s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.000119s ]
+SQL: SELECT `id`,`cate_id`,`pic_id`,`title`,`content`,`time`,`more` FROM `index` WHERE ( `del` = 0 ) AND ( `cate_id` = 3 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000121s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.000118s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.000176s ]
+SQL: SELECT `id`,`cate_id`,`pic_id`,`title`,`content`,`time`,`more` FROM `index` WHERE ( `del` = 0 ) AND ( `cate_id` = 4 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000154s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000124s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.000119s ]
+SQL: SELECT `id`,`cate_id`,`pic_id`,`title`,`content`,`time`,`more` FROM `index` WHERE ( `del` = 0 ) AND ( `cate_id` = 5 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000121s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.000118s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.000119s ]
+SQL: SELECT `id`,`cate_id`,`pic_id`,`title`,`content`,`time`,`more` FROM `index` WHERE ( `del` = 0 ) AND ( `cate_id` = 6 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000122s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.000121s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.000120s ]
+SQL: SELECT `id`,`cate_id`,`pic_id`,`title`,`content`,`time`,`more` FROM `index` WHERE ( `del` = 0 ) AND ( `cate_id` = 7 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000123s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.000121s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='20' ) LIMIT 1   [ RunTime:0.000121s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: name E:\wamp\www\scda\Index\Temp\Cache\Index\a82aed5f987f84a626c85a291db06960.php 第 35 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\scda\Index\Temp\Cache\Index\a82aed5f987f84a626c85a291db06960.php 第 36 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\scda\Index\Temp\Cache\Index\a82aed5f987f84a626c85a291db06960.php 第 37 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\scda\Index\Temp\Cache\Index\a82aed5f987f84a626c85a291db06960.php 第 38 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\scda\Index\Temp\Cache\Index\a82aed5f987f84a626c85a291db06960.php 第 39 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\scda\Index\Temp\Cache\Index\a82aed5f987f84a626c85a291db06960.php 第 40 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\scda\Index\Temp\Cache\Index\a82aed5f987f84a626c85a291db06960.php 第 41 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\scda\Index\Temp\Cache\Index\a82aed5f987f84a626c85a291db06960.php 第 42 行.
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.001460s ]
+SQL: SELECT * FROM `friends` LIMIT 10   [ RunTime:0.000152s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026919s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000928s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000769s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000727s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000782s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003376s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000996s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001077s ]
+
+[ 2013-11-19T21:57:01+08:00 ] 127.0.0.1 /scda/index.php/Admin/Index/logout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000790s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.001373s ]
+SQL: UPDATE `user` SET `logintime`=1384869420 WHERE ( `id` = 2 ) [ RunTime:0.185345s ]
+
+[ 2013-11-19T21:57:01+08:00 ] 127.0.0.1 /scda/index.php/Admin/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001297s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001444s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009199s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001379s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001059s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000982s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004763s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001030s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001105s ]
+
+[ 2013-11-19T21:57:04+08:00 ] 127.0.0.1 /scda/index.php/Admin/Index/logout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001131s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001278s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+
+[ 2013-11-19T21:57:04+08:00 ] 127.0.0.1 /scda/index.php/Admin/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001050s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007911s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000812s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000772s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000732s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000777s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003252s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000847s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2013-11-19T21:57:06+08:00 ] 127.0.0.1 /scda/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001160s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001293s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+SQL: SHOW COLUMNS FROM `index` [ RunTime:0.001637s ]
+SQL: SELECT `id`,`cate_id`,`pic_id`,`title`,`content`,`time`,`more` FROM `index` WHERE ( `del` = 0 ) AND ( `cate_id` = 1 ) ORDER BY time desc LIMIT 3   [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `index_cate` [ RunTime:0.001566s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000136s ]
+SQL: SHOW COLUMNS FROM `upload` [ RunTime:0.001113s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='21' ) LIMIT 1   [ RunTime:0.000120s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000137s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.000140s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000113s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.000115s ]
+SQL: SELECT `id`,`cate_id`,`pic_id`,`title`,`content`,`time`,`more` FROM `index` WHERE ( `del` = 0 ) AND ( `cate_id` = 2 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000127s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.000119s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.000119s ]
+SQL: SELECT `id`,`cate_id`,`pic_id`,`title`,`content`,`time`,`more` FROM `index` WHERE ( `del` = 0 ) AND ( `cate_id` = 3 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000121s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.000118s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.000119s ]
+SQL: SELECT `id`,`cate_id`,`pic_id`,`title`,`content`,`time`,`more` FROM `index` WHERE ( `del` = 0 ) AND ( `cate_id` = 4 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000223s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000129s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.000095s ]
+SQL: SELECT `id`,`cate_id`,`pic_id`,`title`,`content`,`time`,`more` FROM `index` WHERE ( `del` = 0 ) AND ( `cate_id` = 5 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000095s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.000088s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.000090s ]
+SQL: SELECT `id`,`cate_id`,`pic_id`,`title`,`content`,`time`,`more` FROM `index` WHERE ( `del` = 0 ) AND ( `cate_id` = 6 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000096s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.000111s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.000120s ]
+SQL: SELECT `id`,`cate_id`,`pic_id`,`title`,`content`,`time`,`more` FROM `index` WHERE ( `del` = 0 ) AND ( `cate_id` = 7 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000121s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.000119s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='20' ) LIMIT 1   [ RunTime:0.000111s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: name E:\wamp\www\scda\Index\Temp\Cache\Index\a82aed5f987f84a626c85a291db06960.php 第 35 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\scda\Index\Temp\Cache\Index\a82aed5f987f84a626c85a291db06960.php 第 36 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\scda\Index\Temp\Cache\Index\a82aed5f987f84a626c85a291db06960.php 第 37 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\scda\Index\Temp\Cache\Index\a82aed5f987f84a626c85a291db06960.php 第 38 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\scda\Index\Temp\Cache\Index\a82aed5f987f84a626c85a291db06960.php 第 39 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\scda\Index\Temp\Cache\Index\a82aed5f987f84a626c85a291db06960.php 第 40 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\scda\Index\Temp\Cache\Index\a82aed5f987f84a626c85a291db06960.php 第 41 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\scda\Index\Temp\Cache\Index\a82aed5f987f84a626c85a291db06960.php 第 42 行.
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.001749s ]
+SQL: SELECT * FROM `friends` LIMIT 10   [ RunTime:0.000275s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024132s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000881s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001303s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000781s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000786s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003931s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000852s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2013-11-19T21:57:07+08:00 ] 127.0.0.1 /scda/index.php/Index/News/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000966s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001115s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.001463s ]
+SQL: SELECT * FROM `friends` LIMIT 10   [ RunTime:0.000156s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.053090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053225s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000912s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000772s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000727s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003553s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001802s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002111s ]
+
+[ 2013-11-19T21:57:07+08:00 ] 127.0.0.1 /scda/index.php/Index/News/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000802s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.001134s ]
+SQL: SELECT * FROM `friends` LIMIT 10   [ RunTime:0.000133s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031591s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000889s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000812s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000741s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000806s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003420s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001110s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001201s ]
+
+[ 2013-11-19T21:57:09+08:00 ] 127.0.0.1 /scda/index.php/Index/Report/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000946s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+SQL: SHOW COLUMNS FROM `report` [ RunTime:0.053828s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `report` WHERE ( `del` = 0 ) LIMIT 1   [ RunTime:0.000299s ]
+SQL: SELECT `id`,`title`,`summary`,`author`,`time`,`click`,`del` FROM `report` WHERE ( `del` = 0 ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.011030s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f4b39776831a787d1ec6ccda18253339.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f4b39776831a787d1ec6ccda18253339.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f4b39776831a787d1ec6ccda18253339.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f4b39776831a787d1ec6ccda18253339.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f4b39776831a787d1ec6ccda18253339.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f4b39776831a787d1ec6ccda18253339.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f4b39776831a787d1ec6ccda18253339.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f4b39776831a787d1ec6ccda18253339.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f4b39776831a787d1ec6ccda18253339.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f4b39776831a787d1ec6ccda18253339.php 第 84 行.
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.098408s ]
+SQL: SELECT `introduce` FROM `program` WHERE ( `name` = '调研报告' ) LIMIT 1   [ RunTime:0.000260s ]
+SQL: SELECT id,title,click,del FROM `report` WHERE ( `del` = 0 ) ORDER BY click desc LIMIT 10   [ RunTime:0.000669s ]
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.002562s ]
+SQL: SELECT * FROM `friends` LIMIT 10   [ RunTime:0.000660s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.188522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.188703s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001012s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000884s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000773s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000876s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003759s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000861s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000940s ]
+
+[ 2013-11-19T21:57:12+08:00 ] 127.0.0.1 /scda/index.php/Index/Direct/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001045s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+SQL: SHOW COLUMNS FROM `direct` [ RunTime:0.027129s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `direct` WHERE ( `del` = 0 ) LIMIT 1   [ RunTime:0.000708s ]
+SQL: SELECT `id`,`title`,`summary`,`author`,`time`,`click`,`del` FROM `direct` WHERE ( `del` = 0 ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.014572s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\0a334d84e307299fb84cb431ef9c2184.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\0a334d84e307299fb84cb431ef9c2184.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\0a334d84e307299fb84cb431ef9c2184.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\0a334d84e307299fb84cb431ef9c2184.php 第 84 行.
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.001519s ]
+SQL: SELECT `introduce` FROM `program` WHERE ( `name` = '就业指导' ) LIMIT 1   [ RunTime:0.000259s ]
+SQL: SELECT id,title,click,del FROM `direct` WHERE ( `del` = 0 ) ORDER BY click desc LIMIT 10   [ RunTime:0.000313s ]
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\29b026ed771a7d2c4fab22cb83dc9aca.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\29b026ed771a7d2c4fab22cb83dc9aca.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\29b026ed771a7d2c4fab22cb83dc9aca.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\29b026ed771a7d2c4fab22cb83dc9aca.php 第 19 行.
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.001388s ]
+SQL: SELECT * FROM `friends` LIMIT 10   [ RunTime:0.000153s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.059476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059735s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001093s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000967s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001024s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004423s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001112s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001209s ]
+
+[ 2013-11-19T21:57:14+08:00 ] 127.0.0.1 /scda/index.php/Index/Visit/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001443s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001605s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.001124s ]
+SQL: SELECT * FROM `friends` LIMIT 10   [ RunTime:0.000085s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.045756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045864s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000904s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000768s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000727s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000776s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003367s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001073s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001182s ]
+
+[ 2013-11-19T21:57:15+08:00 ] 127.0.0.1 /scda/index.php/Index/Assess/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000989s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+SQL: SHOW COLUMNS FROM `assess` [ RunTime:0.065339s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `assess` WHERE ( `del` = 0 ) LIMIT 1   [ RunTime:0.000286s ]
+SQL: SELECT `id`,`title`,`summary`,`author`,`time`,`click`,`del` FROM `assess` WHERE ( `del` = 0 ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.015549s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\d96cc6aa0835d9d52460e251b2dbef93.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\d96cc6aa0835d9d52460e251b2dbef93.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\d96cc6aa0835d9d52460e251b2dbef93.php 第 84 行.
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.001432s ]
+SQL: SELECT `introduce` FROM `program` WHERE ( `name` = '职业测评' ) LIMIT 1   [ RunTime:0.000281s ]
+SQL: SELECT id,title,click,del FROM `assess` WHERE ( `del` = 0 ) ORDER BY click desc LIMIT 10   [ RunTime:0.000327s ]
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\5a64fae2b4db7c56cb49357425c86fe0.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\5a64fae2b4db7c56cb49357425c86fe0.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\5a64fae2b4db7c56cb49357425c86fe0.php 第 19 行.
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.001435s ]
+SQL: SELECT * FROM `friends` LIMIT 10   [ RunTime:0.000149s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.095784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096020s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001087s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000990s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001041s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004392s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001252s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001352s ]
+
+[ 2013-11-19T21:57:16+08:00 ] 127.0.0.1 /scda/index.php/Index/Visit/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000792s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.001382s ]
+SQL: SELECT * FROM `friends` LIMIT 10   [ RunTime:0.000139s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024801s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000872s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000766s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000726s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000781s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003300s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001436s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001575s ]
+
+[ 2013-11-19T21:57:20+08:00 ] 127.0.0.1 /scda/index.php/Index/Assess/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001176s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+SQL: SHOW COLUMNS FROM `assess` [ RunTime:0.001209s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `assess` WHERE ( `del` = 0 ) LIMIT 1   [ RunTime:0.000083s ]
+SQL: SELECT `id`,`title`,`summary`,`author`,`time`,`click`,`del` FROM `assess` WHERE ( `del` = 0 ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.000095s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\d96cc6aa0835d9d52460e251b2dbef93.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\d96cc6aa0835d9d52460e251b2dbef93.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\d96cc6aa0835d9d52460e251b2dbef93.php 第 84 行.
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.001227s ]
+SQL: SELECT `introduce` FROM `program` WHERE ( `name` = '职业测评' ) LIMIT 1   [ RunTime:0.000144s ]
+SQL: SELECT id,title,click,del FROM `assess` WHERE ( `del` = 0 ) ORDER BY click desc LIMIT 10   [ RunTime:0.000126s ]
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\5a64fae2b4db7c56cb49357425c86fe0.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\5a64fae2b4db7c56cb49357425c86fe0.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\5a64fae2b4db7c56cb49357425c86fe0.php 第 19 行.
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.001206s ]
+SQL: SELECT * FROM `friends` LIMIT 10   [ RunTime:0.000270s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029655s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000848s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000769s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000725s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000808s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003309s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000853s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000928s ]
+
+[ 2013-11-19T21:57:21+08:00 ] 127.0.0.1 /scda/index.php/Index/Job/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000963s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001115s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.047739s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `job` WHERE ( `del` = 0 ) LIMIT 1   [ RunTime:0.000701s ]
+SQL: SELECT `id`,`title`,`summary`,`author`,`time`,`click`,`del` FROM `job` WHERE ( `del` = 0 ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.011533s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\cae34e90e67cd068304a5a074cf6b958.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\cae34e90e67cd068304a5a074cf6b958.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\cae34e90e67cd068304a5a074cf6b958.php 第 84 行.
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.003012s ]
+SQL: SELECT `introduce` FROM `program` WHERE ( `name` = '就业信息' ) LIMIT 1   [ RunTime:0.000723s ]
+SQL: SELECT id,title,click,del FROM `job` WHERE ( `del` = 0 ) ORDER BY click desc LIMIT 10   [ RunTime:0.000558s ]
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\36acf29adc36f9179b36df88fbbd4266.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\36acf29adc36f9179b36df88fbbd4266.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\36acf29adc36f9179b36df88fbbd4266.php 第 19 行.
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.002537s ]
+SQL: SELECT * FROM `friends` LIMIT 10   [ RunTime:0.000363s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.081142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081356s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001242s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001128s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001075s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004831s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001174s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001282s ]
+
+[ 2013-11-19T21:57:23+08:00 ] 127.0.0.1 /scda/index.php/Index/Video/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001902s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002141s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.037592s ]
+SQL: SELECT `id`,`title`,`type`,`summary`,`pic_id`,`video_id`,`time`,`click`,`cid`,`del` FROM `video` WHERE ( `del` = 0 ) AND ( `type` = 1 ) ORDER BY time desc  [ RunTime:0.011688s ]
+SQL: SHOW COLUMNS FROM `upload` [ RunTime:0.003775s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='52' ) LIMIT 1   [ RunTime:0.000475s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='38' ) LIMIT 1   [ RunTime:0.000462s ]
+SQL: SELECT `id`,`title`,`type`,`pic_id`,`video_id`,`time`,`click`,`cid`,`del` FROM `video` WHERE ( `del` = 0 ) AND ( `cid` = 5 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000658s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='40' ) LIMIT 1   [ RunTime:0.000488s ]
+SQL: SELECT `id`,`title`,`type`,`pic_id`,`video_id`,`time`,`click`,`cid`,`del` FROM `video` WHERE ( `del` = 0 ) AND ( `cid` = 6 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000808s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='42' ) LIMIT 1   [ RunTime:0.000304s ]
+SQL: SELECT `id`,`title`,`type`,`pic_id`,`video_id`,`time`,`click`,`cid`,`del` FROM `video` WHERE ( `del` = 0 ) AND ( `cid` = 7 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000449s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='44' ) LIMIT 1   [ RunTime:0.000279s ]
+SQL: SELECT `id`,`title`,`type`,`pic_id`,`video_id`,`time`,`click`,`cid`,`del` FROM `video` WHERE ( `del` = 0 ) AND ( `cid` = 8 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000383s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='46' ) LIMIT 1   [ RunTime:0.000309s ]
+SQL: SELECT `id`,`title`,`type`,`pic_id`,`video_id`,`time`,`click`,`cid`,`del` FROM `video` WHERE ( `del` = 0 ) AND ( `cid` = 9 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000381s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='48' ) LIMIT 1   [ RunTime:0.000322s ]
+SQL: SELECT `id`,`title`,`type`,`pic_id`,`video_id`,`time`,`click`,`cid`,`del` FROM `video` WHERE ( `del` = 0 ) AND ( `cid` = 10 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000421s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='50' ) LIMIT 1   [ RunTime:0.000327s ]
+SQL: SELECT `id`,`title`,`type`,`pic_id`,`video_id`,`time`,`click`,`cid`,`del` FROM `video` WHERE ( `del` = 0 ) AND ( `cid` = 2 ) ORDER BY time desc LIMIT 4   [ RunTime:0.000433s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='38' ) LIMIT 1   [ RunTime:0.000196s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='35' ) LIMIT 1   [ RunTime:0.000362s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='32' ) LIMIT 1   [ RunTime:0.000304s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000330s ]
+SQL: SELECT `id`,`title`,`type`,`pic_id`,`video_id`,`time`,`click`,`cid`,`del` FROM `video` WHERE ( `del` = 0 ) AND ( `cid` = 3 ) ORDER BY time desc LIMIT 4   [ RunTime:0.000391s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='52' ) LIMIT 1   [ RunTime:0.000194s ]
+SQL: SELECT `id`,`title`,`type`,`pic_id`,`video_id`,`time`,`click`,`cid`,`del` FROM `video` WHERE ( `del` = 0 ) AND ( `cid` = 4 ) ORDER BY time desc LIMIT 4   [ RunTime:0.000376s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000192s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.002015s ]
+SQL: SELECT `id`,`title`,`type`,`pic_id`,`video_id`,`time`,`click`,`cid`,`del` FROM `video` WHERE ( `del` = 0 ) ORDER BY click desc LIMIT 10   [ RunTime:0.000512s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 66 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 66 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 89 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 98 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 107 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 116 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 125 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 134 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 154 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 154 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 154 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 154 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 154 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 154 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 154 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 154 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 154 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 159 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 202 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 202 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 202 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 202 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 221 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 239 行.
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.001314s ]
+SQL: SELECT * FROM `friends` LIMIT 10   [ RunTime:0.000128s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.065041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065196s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000934s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000863s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001071s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000957s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004016s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000869s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2013-11-19T21:57:27+08:00 ] 127.0.0.1 /scda/index.php/Index/Assess/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001262s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001410s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001476s ]
+SQL: SHOW COLUMNS FROM `assess` [ RunTime:0.001749s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `assess` WHERE ( `del` = 0 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT `id`,`title`,`summary`,`author`,`time`,`click`,`del` FROM `assess` WHERE ( `del` = 0 ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.000113s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\d96cc6aa0835d9d52460e251b2dbef93.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\d96cc6aa0835d9d52460e251b2dbef93.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\d96cc6aa0835d9d52460e251b2dbef93.php 第 84 行.
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.001254s ]
+SQL: SELECT `introduce` FROM `program` WHERE ( `name` = '职业测评' ) LIMIT 1   [ RunTime:0.000091s ]
+SQL: SELECT id,title,click,del FROM `assess` WHERE ( `del` = 0 ) ORDER BY click desc LIMIT 10   [ RunTime:0.000126s ]
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\5a64fae2b4db7c56cb49357425c86fe0.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\5a64fae2b4db7c56cb49357425c86fe0.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\5a64fae2b4db7c56cb49357425c86fe0.php 第 19 行.
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.001749s ]
+SQL: SELECT * FROM `friends` LIMIT 10   [ RunTime:0.000543s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031676s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000860s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000773s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000731s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003306s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001190s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001298s ]
+
+[ 2013-11-19T21:57:28+08:00 ] 127.0.0.1 /scda/index.php/Index/Visit/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001109s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002553s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.001180s ]
+SQL: SELECT * FROM `friends` LIMIT 10   [ RunTime:0.000102s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028124s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000869s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000763s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000727s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000918s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003440s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000872s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2013-11-19T21:57:28+08:00 ] 127.0.0.1 /scda/index.php/Index/Job/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001938s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002155s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002052s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.001327s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `job` WHERE ( `del` = 0 ) LIMIT 1   [ RunTime:0.000116s ]
+SQL: SELECT `id`,`title`,`summary`,`author`,`time`,`click`,`del` FROM `job` WHERE ( `del` = 0 ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.000100s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\cae34e90e67cd068304a5a074cf6b958.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\cae34e90e67cd068304a5a074cf6b958.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\cae34e90e67cd068304a5a074cf6b958.php 第 84 行.
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.001376s ]
+SQL: SELECT `introduce` FROM `program` WHERE ( `name` = '就业信息' ) LIMIT 1   [ RunTime:0.000136s ]
+SQL: SELECT id,title,click,del FROM `job` WHERE ( `del` = 0 ) ORDER BY click desc LIMIT 10   [ RunTime:0.000127s ]
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\36acf29adc36f9179b36df88fbbd4266.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\36acf29adc36f9179b36df88fbbd4266.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\36acf29adc36f9179b36df88fbbd4266.php 第 19 行.
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.001199s ]
+SQL: SELECT * FROM `friends` LIMIT 10   [ RunTime:0.000111s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027869s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000855s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000768s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001294s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000796s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003894s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001177s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001285s ]
+
+[ 2013-11-19T21:57:29+08:00 ] 127.0.0.1 /scda/index.php/Index/Video/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000817s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.001496s ]
+SQL: SELECT `id`,`title`,`type`,`summary`,`pic_id`,`video_id`,`time`,`click`,`cid`,`del` FROM `video` WHERE ( `del` = 0 ) AND ( `type` = 1 ) ORDER BY time desc  [ RunTime:0.000151s ]
+SQL: SHOW COLUMNS FROM `upload` [ RunTime:0.001430s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='52' ) LIMIT 1   [ RunTime:0.000150s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='38' ) LIMIT 1   [ RunTime:0.000122s ]
+SQL: SELECT `id`,`title`,`type`,`pic_id`,`video_id`,`time`,`click`,`cid`,`del` FROM `video` WHERE ( `del` = 0 ) AND ( `cid` = 5 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000119s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='40' ) LIMIT 1   [ RunTime:0.000111s ]
+SQL: SELECT `id`,`title`,`type`,`pic_id`,`video_id`,`time`,`click`,`cid`,`del` FROM `video` WHERE ( `del` = 0 ) AND ( `cid` = 6 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000116s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='42' ) LIMIT 1   [ RunTime:0.000109s ]
+SQL: SELECT `id`,`title`,`type`,`pic_id`,`video_id`,`time`,`click`,`cid`,`del` FROM `video` WHERE ( `del` = 0 ) AND ( `cid` = 7 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000123s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='44' ) LIMIT 1   [ RunTime:0.000120s ]
+SQL: SELECT `id`,`title`,`type`,`pic_id`,`video_id`,`time`,`click`,`cid`,`del` FROM `video` WHERE ( `del` = 0 ) AND ( `cid` = 8 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000123s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='46' ) LIMIT 1   [ RunTime:0.000115s ]
+SQL: SELECT `id`,`title`,`type`,`pic_id`,`video_id`,`time`,`click`,`cid`,`del` FROM `video` WHERE ( `del` = 0 ) AND ( `cid` = 9 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000116s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='48' ) LIMIT 1   [ RunTime:0.000108s ]
+SQL: SELECT `id`,`title`,`type`,`pic_id`,`video_id`,`time`,`click`,`cid`,`del` FROM `video` WHERE ( `del` = 0 ) AND ( `cid` = 10 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000113s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='50' ) LIMIT 1   [ RunTime:0.000108s ]
+SQL: SELECT `id`,`title`,`type`,`pic_id`,`video_id`,`time`,`click`,`cid`,`del` FROM `video` WHERE ( `del` = 0 ) AND ( `cid` = 2 ) ORDER BY time desc LIMIT 4   [ RunTime:0.000114s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='38' ) LIMIT 1   [ RunTime:0.000110s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='35' ) LIMIT 1   [ RunTime:0.000108s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='32' ) LIMIT 1   [ RunTime:0.000108s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000107s ]
+SQL: SELECT `id`,`title`,`type`,`pic_id`,`video_id`,`time`,`click`,`cid`,`del` FROM `video` WHERE ( `del` = 0 ) AND ( `cid` = 3 ) ORDER BY time desc LIMIT 4   [ RunTime:0.000112s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='52' ) LIMIT 1   [ RunTime:0.000107s ]
+SQL: SELECT `id`,`title`,`type`,`pic_id`,`video_id`,`time`,`click`,`cid`,`del` FROM `video` WHERE ( `del` = 0 ) AND ( `cid` = 4 ) ORDER BY time desc LIMIT 4   [ RunTime:0.000111s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.001703s ]
+SQL: SELECT `id`,`title`,`type`,`pic_id`,`video_id`,`time`,`click`,`cid`,`del` FROM `video` WHERE ( `del` = 0 ) ORDER BY click desc LIMIT 10   [ RunTime:0.000150s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 66 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 66 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 89 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 98 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 107 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 116 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 125 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 134 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 154 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 154 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 154 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 154 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 154 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 154 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 154 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 154 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 154 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 159 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 202 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 202 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 202 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 202 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 221 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 239 行.
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.001346s ]
+SQL: SELECT * FROM `friends` LIMIT 10   [ RunTime:0.000143s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035448s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001077s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001102s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000841s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000848s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004057s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000914s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000994s ]
+
+[ 2013-11-19T21:57:35+08:00 ] 127.0.0.1 /scda/index.php/Index/News/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000789s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.001197s ]
+SQL: SELECT * FROM `friends` LIMIT 10   [ RunTime:0.000140s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030928s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000922s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000798s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000843s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003636s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001158s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001270s ]
+
+[ 2013-11-19T21:57:35+08:00 ] 127.0.0.1 /scda/index.php/Index/News/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001239s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001405s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.001221s ]
+SQL: SELECT * FROM `friends` LIMIT 10   [ RunTime:0.000683s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033879s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000948s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001054s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001695s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005327s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001706s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001815s ]
+
+[ 2013-11-19T21:57:36+08:00 ] 127.0.0.1 /scda/index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001010s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001136s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+SQL: SHOW COLUMNS FROM `index` [ RunTime:0.001292s ]
+SQL: SELECT `id`,`cate_id`,`pic_id`,`title`,`content`,`time`,`more` FROM `index` WHERE ( `del` = 0 ) AND ( `cate_id` = 1 ) ORDER BY time desc LIMIT 3   [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `index_cate` [ RunTime:0.001212s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000152s ]
+SQL: SHOW COLUMNS FROM `upload` [ RunTime:0.002151s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='21' ) LIMIT 1   [ RunTime:0.000192s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000112s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000821s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.000135s ]
+SQL: SELECT `id`,`cate_id`,`pic_id`,`title`,`content`,`time`,`more` FROM `index` WHERE ( `del` = 0 ) AND ( `cate_id` = 2 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000152s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.000167s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.000158s ]
+SQL: SELECT `id`,`cate_id`,`pic_id`,`title`,`content`,`time`,`more` FROM `index` WHERE ( `del` = 0 ) AND ( `cate_id` = 3 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000140s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.000136s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.000137s ]
+SQL: SELECT `id`,`cate_id`,`pic_id`,`title`,`content`,`time`,`more` FROM `index` WHERE ( `del` = 0 ) AND ( `cate_id` = 4 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000138s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000135s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.000136s ]
+SQL: SELECT `id`,`cate_id`,`pic_id`,`title`,`content`,`time`,`more` FROM `index` WHERE ( `del` = 0 ) AND ( `cate_id` = 5 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000123s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.000126s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.000136s ]
+SQL: SELECT `id`,`cate_id`,`pic_id`,`title`,`content`,`time`,`more` FROM `index` WHERE ( `del` = 0 ) AND ( `cate_id` = 6 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000139s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.000134s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.000136s ]
+SQL: SELECT `id`,`cate_id`,`pic_id`,`title`,`content`,`time`,`more` FROM `index` WHERE ( `del` = 0 ) AND ( `cate_id` = 7 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000138s ]
+SQL: SELECT `name` FROM `index_cate` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.000136s ]
+SQL: SELECT `directory`,`name` FROM `upload` WHERE ( 1=1 AND id='20' ) LIMIT 1   [ RunTime:0.000134s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: name E:\wamp\www\scda\Index\Temp\Cache\Index\a82aed5f987f84a626c85a291db06960.php 第 35 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\scda\Index\Temp\Cache\Index\a82aed5f987f84a626c85a291db06960.php 第 36 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\scda\Index\Temp\Cache\Index\a82aed5f987f84a626c85a291db06960.php 第 37 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\scda\Index\Temp\Cache\Index\a82aed5f987f84a626c85a291db06960.php 第 38 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\scda\Index\Temp\Cache\Index\a82aed5f987f84a626c85a291db06960.php 第 39 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\scda\Index\Temp\Cache\Index\a82aed5f987f84a626c85a291db06960.php 第 40 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\scda\Index\Temp\Cache\Index\a82aed5f987f84a626c85a291db06960.php 第 41 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\scda\Index\Temp\Cache\Index\a82aed5f987f84a626c85a291db06960.php 第 42 行.
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.002169s ]
+SQL: SELECT * FROM `friends` LIMIT 10   [ RunTime:0.000323s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028881s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000884s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000770s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000732s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000882s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003439s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001222s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001312s ]
+
+[ 2013-11-19T22:04:44+08:00 ] 127.0.0.1 /scda/index.php/Index/Report/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001146s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001548s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001949s ]
+SQL: SHOW COLUMNS FROM `report` [ RunTime:0.001223s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `report` WHERE ( `del` = 0 ) LIMIT 1   [ RunTime:0.000108s ]
+SQL: SELECT `id`,`title`,`summary`,`author`,`time`,`click`,`del` FROM `report` WHERE ( `del` = 0 ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.000106s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f4b39776831a787d1ec6ccda18253339.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f4b39776831a787d1ec6ccda18253339.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f4b39776831a787d1ec6ccda18253339.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f4b39776831a787d1ec6ccda18253339.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f4b39776831a787d1ec6ccda18253339.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f4b39776831a787d1ec6ccda18253339.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f4b39776831a787d1ec6ccda18253339.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f4b39776831a787d1ec6ccda18253339.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f4b39776831a787d1ec6ccda18253339.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f4b39776831a787d1ec6ccda18253339.php 第 84 行.
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.001225s ]
+SQL: SELECT `introduce` FROM `program` WHERE ( `name` = '调研报告' ) LIMIT 1   [ RunTime:0.000103s ]
+SQL: SELECT id,title,click,del FROM `report` WHERE ( `del` = 0 ) ORDER BY click desc LIMIT 10   [ RunTime:0.000096s ]
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.001314s ]
+SQL: SELECT * FROM `friends` LIMIT 10   [ RunTime:0.000146s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036680s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001113s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000861s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000473s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000897s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003562s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000924s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001011s ]
+
+[ 2013-11-19T22:04:48+08:00 ] 127.0.0.1 /scda/index.php/Index/Report/show.html?id=17
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001003s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001124s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `report` [ RunTime:0.001229s ]
+SQL: SELECT `id`,`title`,`content`,`author`,`time`,`click`,`del` FROM `report` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.000225s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.001308s ]
+SQL: SELECT `introduce` FROM `program` WHERE ( `name` = '调研报告' ) LIMIT 1   [ RunTime:0.000121s ]
+SQL: SELECT id,title,click,del FROM `report` WHERE ( `del` = 0 ) ORDER BY click desc LIMIT 10   [ RunTime:0.000139s ]
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.001270s ]
+SQL: SELECT * FROM `friends` LIMIT 10   [ RunTime:0.000192s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.060178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060262s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000894s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001196s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000441s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004319s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001520s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001673s ]
+
+[ 2013-11-19T22:04:49+08:00 ] 127.0.0.1 /scda/index.php/Index/Report/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001046s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+SQL: SHOW COLUMNS FROM `report` [ RunTime:0.001519s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `report` WHERE ( `del` = 0 ) LIMIT 1   [ RunTime:0.000157s ]
+SQL: SELECT `id`,`title`,`summary`,`author`,`time`,`click`,`del` FROM `report` WHERE ( `del` = 0 ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.000141s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f4b39776831a787d1ec6ccda18253339.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f4b39776831a787d1ec6ccda18253339.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f4b39776831a787d1ec6ccda18253339.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f4b39776831a787d1ec6ccda18253339.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f4b39776831a787d1ec6ccda18253339.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f4b39776831a787d1ec6ccda18253339.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f4b39776831a787d1ec6ccda18253339.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f4b39776831a787d1ec6ccda18253339.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f4b39776831a787d1ec6ccda18253339.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f4b39776831a787d1ec6ccda18253339.php 第 84 行.
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.001528s ]
+SQL: SELECT `introduce` FROM `program` WHERE ( `name` = '调研报告' ) LIMIT 1   [ RunTime:0.000130s ]
+SQL: SELECT id,title,click,del FROM `report` WHERE ( `del` = 0 ) ORDER BY click desc LIMIT 10   [ RunTime:0.000108s ]
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.001145s ]
+SQL: SELECT * FROM `friends` LIMIT 10   [ RunTime:0.000145s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032751s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000992s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000847s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000434s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003619s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001177s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001293s ]
+
+[ 2013-11-19T22:04:50+08:00 ] 127.0.0.1 /scda/index.php/Index/Report/show.html?id=19
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000906s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+SQL: SHOW COLUMNS FROM `report` [ RunTime:0.001228s ]
+SQL: SELECT `id`,`title`,`content`,`author`,`time`,`click`,`del` FROM `report` WHERE ( `id` = 19 ) LIMIT 1   [ RunTime:0.000299s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.001293s ]
+SQL: SELECT `introduce` FROM `program` WHERE ( `name` = '调研报告' ) LIMIT 1   [ RunTime:0.000153s ]
+SQL: SELECT id,title,click,del FROM `report` WHERE ( `del` = 0 ) ORDER BY click desc LIMIT 10   [ RunTime:0.000103s ]
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.001410s ]
+SQL: SELECT * FROM `friends` LIMIT 10   [ RunTime:0.000166s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031631s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000889s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000770s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000269s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000869s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002972s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000869s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2013-11-19T22:05:02+08:00 ] 127.0.0.1 /scda/index.php/Index/Report/show.html?id=19
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000959s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001083s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `report` [ RunTime:0.001280s ]
+SQL: SELECT `id`,`title`,`content`,`author`,`time`,`click`,`del` FROM `report` WHERE ( `id` = 19 ) LIMIT 1   [ RunTime:0.000213s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.001115s ]
+SQL: SELECT `introduce` FROM `program` WHERE ( `name` = '调研报告' ) LIMIT 1   [ RunTime:0.000112s ]
+SQL: SELECT id,title,click,del FROM `report` WHERE ( `del` = 0 ) ORDER BY click desc LIMIT 10   [ RunTime:0.000095s ]
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\f3d2e5a0e1102fe65656301cc9219197.php 第 19 行.
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.001235s ]
+SQL: SELECT * FROM `friends` LIMIT 10   [ RunTime:0.000105s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029237s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000881s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000963s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000800s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003873s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000926s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2013-11-19T22:05:30+08:00 ] 127.0.0.1 /scda/index.php/Index/Direct/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000919s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001061s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `direct` [ RunTime:0.001800s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `direct` WHERE ( `del` = 0 ) LIMIT 1   [ RunTime:0.000513s ]
+SQL: SELECT `id`,`title`,`summary`,`author`,`time`,`click`,`del` FROM `direct` WHERE ( `del` = 0 ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.000128s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\0a334d84e307299fb84cb431ef9c2184.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\0a334d84e307299fb84cb431ef9c2184.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\0a334d84e307299fb84cb431ef9c2184.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\0a334d84e307299fb84cb431ef9c2184.php 第 84 行.
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.001780s ]
+SQL: SELECT `introduce` FROM `program` WHERE ( `name` = '就业指导' ) LIMIT 1   [ RunTime:0.000196s ]
+SQL: SELECT id,title,click,del FROM `direct` WHERE ( `del` = 0 ) ORDER BY click desc LIMIT 10   [ RunTime:0.000113s ]
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\29b026ed771a7d2c4fab22cb83dc9aca.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\29b026ed771a7d2c4fab22cb83dc9aca.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\29b026ed771a7d2c4fab22cb83dc9aca.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\29b026ed771a7d2c4fab22cb83dc9aca.php 第 19 行.
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.001232s ]
+SQL: SELECT * FROM `friends` LIMIT 10   [ RunTime:0.000121s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033397s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000936s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000821s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000261s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000861s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003049s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000865s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000944s ]
+
+[ 2013-11-19T22:05:32+08:00 ] 127.0.0.1 /scda/index.php/Index/Assess/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000828s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+SQL: SHOW COLUMNS FROM `assess` [ RunTime:0.001645s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `assess` WHERE ( `del` = 0 ) LIMIT 1   [ RunTime:0.002555s ]
+SQL: SELECT `id`,`title`,`summary`,`author`,`time`,`click`,`del` FROM `assess` WHERE ( `del` = 0 ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.000161s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\d96cc6aa0835d9d52460e251b2dbef93.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\d96cc6aa0835d9d52460e251b2dbef93.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\d96cc6aa0835d9d52460e251b2dbef93.php 第 84 行.
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.001486s ]
+SQL: SELECT `introduce` FROM `program` WHERE ( `name` = '职业测评' ) LIMIT 1   [ RunTime:0.000165s ]
+SQL: SELECT id,title,click,del FROM `assess` WHERE ( `del` = 0 ) ORDER BY click desc LIMIT 10   [ RunTime:0.000117s ]
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\5a64fae2b4db7c56cb49357425c86fe0.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\5a64fae2b4db7c56cb49357425c86fe0.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\5a64fae2b4db7c56cb49357425c86fe0.php 第 19 行.
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.001624s ]
+SQL: SELECT * FROM `friends` LIMIT 10   [ RunTime:0.000233s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031260s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000876s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000864s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000249s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002955s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001288s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001418s ]
+
+[ 2013-11-19T22:05:32+08:00 ] 127.0.0.1 /scda/index.php/Index/Job/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001291s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001441s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001522s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.001517s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `job` WHERE ( `del` = 0 ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT `id`,`title`,`summary`,`author`,`time`,`click`,`del` FROM `job` WHERE ( `del` = 0 ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.000143s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\cae34e90e67cd068304a5a074cf6b958.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\cae34e90e67cd068304a5a074cf6b958.php 第 84 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\cae34e90e67cd068304a5a074cf6b958.php 第 84 行.
+SQL: SHOW COLUMNS FROM `program` [ RunTime:0.001687s ]
+SQL: SELECT `introduce` FROM `program` WHERE ( `name` = '就业信息' ) LIMIT 1   [ RunTime:0.000150s ]
+SQL: SELECT id,title,click,del FROM `job` WHERE ( `del` = 0 ) ORDER BY click desc LIMIT 10   [ RunTime:0.000124s ]
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\36acf29adc36f9179b36df88fbbd4266.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\36acf29adc36f9179b36df88fbbd4266.php 第 19 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\36acf29adc36f9179b36df88fbbd4266.php 第 19 行.
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.001342s ]
+SQL: SELECT * FROM `friends` LIMIT 10   [ RunTime:0.000282s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031495s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000861s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000767s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000245s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002815s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001334s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001437s ]
+
+[ 2013-11-19T22:05:33+08:00 ] 127.0.0.1 /scda/index.php/Index/About/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000879s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+ERR: 无法加载模块:About
+
+[ 2013-11-19T22:05:35+08:00 ] 127.0.0.1 /scda/index.php/Index/Video/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000809s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.001467s ]
+SQL: SELECT `id`,`title`,`type`,`summary`,`pic_id`,`video_id`,`time`,`click`,`cid`,`del` FROM `video` WHERE ( `del` = 0 ) AND ( `type` = 1 ) ORDER BY time desc  [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `upload` [ RunTime:0.001341s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='52' ) LIMIT 1   [ RunTime:0.000148s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='38' ) LIMIT 1   [ RunTime:0.000121s ]
+SQL: SELECT `id`,`title`,`type`,`pic_id`,`video_id`,`time`,`click`,`cid`,`del` FROM `video` WHERE ( `del` = 0 ) AND ( `cid` = 5 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000131s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='40' ) LIMIT 1   [ RunTime:0.000127s ]
+SQL: SELECT `id`,`title`,`type`,`pic_id`,`video_id`,`time`,`click`,`cid`,`del` FROM `video` WHERE ( `del` = 0 ) AND ( `cid` = 6 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000139s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='42' ) LIMIT 1   [ RunTime:0.000121s ]
+SQL: SELECT `id`,`title`,`type`,`pic_id`,`video_id`,`time`,`click`,`cid`,`del` FROM `video` WHERE ( `del` = 0 ) AND ( `cid` = 7 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000124s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='44' ) LIMIT 1   [ RunTime:0.000119s ]
+SQL: SELECT `id`,`title`,`type`,`pic_id`,`video_id`,`time`,`click`,`cid`,`del` FROM `video` WHERE ( `del` = 0 ) AND ( `cid` = 8 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000123s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='46' ) LIMIT 1   [ RunTime:0.000121s ]
+SQL: SELECT `id`,`title`,`type`,`pic_id`,`video_id`,`time`,`click`,`cid`,`del` FROM `video` WHERE ( `del` = 0 ) AND ( `cid` = 9 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000138s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='48' ) LIMIT 1   [ RunTime:0.000098s ]
+SQL: SELECT `id`,`title`,`type`,`pic_id`,`video_id`,`time`,`click`,`cid`,`del` FROM `video` WHERE ( `del` = 0 ) AND ( `cid` = 10 ) ORDER BY time desc LIMIT 1   [ RunTime:0.000131s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='50' ) LIMIT 1   [ RunTime:0.000122s ]
+SQL: SELECT `id`,`title`,`type`,`pic_id`,`video_id`,`time`,`click`,`cid`,`del` FROM `video` WHERE ( `del` = 0 ) AND ( `cid` = 2 ) ORDER BY time desc LIMIT 4   [ RunTime:0.000125s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='38' ) LIMIT 1   [ RunTime:0.000111s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='35' ) LIMIT 1   [ RunTime:0.000207s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='32' ) LIMIT 1   [ RunTime:0.000119s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000085s ]
+SQL: SELECT `id`,`title`,`type`,`pic_id`,`video_id`,`time`,`click`,`cid`,`del` FROM `video` WHERE ( `del` = 0 ) AND ( `cid` = 3 ) ORDER BY time desc LIMIT 4   [ RunTime:0.000161s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='52' ) LIMIT 1   [ RunTime:0.000088s ]
+SQL: SELECT `id`,`title`,`type`,`pic_id`,`video_id`,`time`,`click`,`cid`,`del` FROM `video` WHERE ( `del` = 0 ) AND ( `cid` = 4 ) ORDER BY time desc LIMIT 4   [ RunTime:0.000087s ]
+SQL: SELECT `directory` FROM `upload` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.001280s ]
+SQL: SELECT `id`,`title`,`type`,`pic_id`,`video_id`,`time`,`click`,`cid`,`del` FROM `video` WHERE ( `del` = 0 ) ORDER BY click desc LIMIT 10   [ RunTime:0.000171s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 66 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 66 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 89 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 98 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 107 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 116 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 125 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 134 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 154 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 154 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 154 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 154 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 154 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 154 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 154 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 154 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 154 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 159 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 202 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 202 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 202 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 202 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 221 行.
+NOTIC: [8] Use of undefined constant Group_name - assumed 'Group_name' E:\wamp\www\scda\Index\Temp\Cache\Index\b9fd99f1a5e3ec2fa911b11dde91c420.php 第 239 行.
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.001289s ]
+SQL: SELECT * FROM `friends` LIMIT 10   [ RunTime:0.000143s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036554s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001096s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000881s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000292s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003656s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001599s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001760s ]
+
+[ 2013-11-19T22:12:01+08:00 ] 127.0.0.1 /scda/index.php/Index/Video/show.html?id=11&vid=39
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000523s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001338s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.001828s ]
+SQL: SELECT * FROM `video` WHERE ( `id` = 11 ) LIMIT 1   [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `upload` [ RunTime:0.001088s ]
+SQL: SELECT * FROM `upload` WHERE ( `id` = 39 ) LIMIT 1   [ RunTime:0.000236s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.001307s ]
+SQL: SELECT * FROM `friends` LIMIT 10   [ RunTime:0.000110s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041183s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000568s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000783s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000812s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003616s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000891s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2013-11-19T22:12:02+08:00 ] 127.0.0.1 /scda/index.php/Index/News/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000213s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.001107s ]
+SQL: SELECT * FROM `friends` LIMIT 10   [ RunTime:0.000420s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.048077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048230s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000714s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001383s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001565s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005306s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001042s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001134s ]
+
+[ 2013-11-19T22:12:02+08:00 ] 127.0.0.1 /scda/index.php/Index/News/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000921s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001051s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.001645s ]
+SQL: SELECT * FROM `friends` LIMIT 10   [ RunTime:0.000174s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.042174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042284s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000948s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000826s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000777s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000964s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003707s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001063s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001157s ]
+

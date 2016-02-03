@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<title>Document</title>
+<link rel="stylesheet" href="__PUBLIC__/Css/public.css" />
+</head>
+<body>
+    <table class='table'>
+        <tr>
+            <th>ID</th>
+            <th>用户名称</th>
+            <th>上次登录时间</th>
+            <th>上一次登录IP</th>
+            <th>锁定状态</th>
+            <th>操作</th>
+        </tr>
+
+        <foreach name='nowUser' item='v'>
+            <tr>
+                <td>{$v.username}</td>
+                <td>{$v.name}</td>
+                <td>{$v.logintime|date='y-m-d H:i',###}</td>
+                <td>{$v.loginip}</td>
+                <td>
+                    <if condition='$v["lock"]'>锁定<<else/>非锁定</if>
+                </td>
+                <td>
+                    <a href="">锁定</a>&nbsp;
+                    <a href="">强制下线</a>
+                </td>
+            </tr>
+        </foreach>
+    </table>
+</body>
+</html>

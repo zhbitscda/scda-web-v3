@@ -1,0 +1,198 @@
+﻿/*
+Template Name: News Magazine
+File: Layout CSS
+Author: OS Templates
+Author URI: #
+Licence: <a href="#">Website Template Licence</a>
+*/
+
+@import url(navi.css);
+@import url(form.css);
+
+
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #666666;
+	background-color: #FFFFFF;
+	width: 100%;
+	}
+
+img{
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: none;
+	float: left;
+}
+.justify{text-align:justify;}
+.bold{font-weight:bold;}
+.center{text-align:center;}
+.right{text-align:right;}
+.nostart{list-style-type:none; margin:0; padding:0;}
+.clear{clear:both;}
+br.clear{clear:both; margin-top:-15px;}
+
+a{
+	outline: none;
+	text-decoration: none;
+	color: #059BD8;
+	background-color: #FFFFFF;
+	font-family: "宋体";
+	font-size: 15px;
+}
+
+a:hover{
+	color: #00923F;
+}
+
+.fl_left{float:left;}
+.fl_right{float:right;}
+
+.imgl, .imgr{border:1px solid #C7C5C8; padding:5px;}
+.imgl{float:left; margin:0 8px 8px 0; clear:left;}
+.imgr{float:right; margin:0 0 8px 8px; clear:right;}
+
+/* 
+
+/* ----------------------------------------------Generalise-------------------------------------*/
+
+#header, #topbar,.container{
+	position: relative;
+	display: block;
+	width: 960px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	}
+
+/* ----------------------------------------------Header-------------------------------------*/
+#headerup {
+	width: 100%;
+	height: 83px;
+	background-color: #2A2F34;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	color: #333;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #E3E3E3;	
+}
+
+#logo2 {
+	height: 60px;
+	width: 230px;
+	position: absolute;
+	left: 56px;
+	top: 5px;
+	z-index: 0;
+}
+
+#logo1 {
+	margin: 2px;
+	height: 60px;
+	width: 59px;
+	position: absolute;
+	z-index: 0;
+	left: -10px;
+	top: 9px;
+}
+
+#logo2 p {
+	color: #FFF;
+	font-size: 24px;
+	text-align: center;
+	font-weight: bolder;
+	border-top-color: #333;
+	border-right-color: #333;
+	border-bottom-color: #333;
+	border-left-color: #333;
+}
+
+#logo {
+	height: 70px;
+	width: 930px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	position: relative;
+	z-index: 0;
+}
+
+#header{
+	padding:2px 0 20px 0;
+	}
+
+#header .fl_left{
+	display: block;
+	float: left;
+	margin-top: 23px;
+	overflow: hidden;
+	margin-left: 8px;
+	}
+
+#header .fl_right{
+	display:block;
+	float:right;
+	width:468px;
+	height:60px;
+	margin-top:21px;
+	overflow:hidden;
+	}
+
+#header h1, #header p, #header ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	line-height:normal;
+	}
+
+#header h1 a{
+	font-size: 43px;
+	color: #999999;
+	background-color: #FFFFFF;
+	}
+
+#header h1 strong{
+	font-weight: bolder;
+	color: #00923F;
+	background-color: #FFFFFF;
+	font-size: 48px;
+	}
+
+#header .fl_left p{
+	text-align:right;
+	margin-top:5px;
+	}
+
+/* ----------------------------------------------Topbar-------------------------------------*/
+
+#topbar{
+	padding:20px 0;
+	z-index:1000;
+	}
+
+#topbar #search{
+	display: block;
+	float: right;
+	overflow: hidden;
+	border-left-width: 1px;
+	border-left-style: dotted;
+	border-left-color: #CCC;
+	padding-top: 10px;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 17px;
+	width: 242px;
+	height: 36px;
+	margin-top: 0px;
+	margin-right: 45px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	}

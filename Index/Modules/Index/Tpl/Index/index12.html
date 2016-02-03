@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<include file='Common:headerpic' />
+<title>大学生职业发展协会</title>
+<link rel="stylesheet" href="__PUBLIC__/Css/index/layout.css" type="text/css" />
+<script type="text/javascript" src="__PUBLIC__/Js/jquery-1.4.1.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Js/jquery.jcarousel.pack.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Js/jquery.jcarousel.setup.js"></script>
+</head>
+
+<body id="top">
+  <div class="wrapper col1">
+    <div id="headerup">
+      <div id="logo">
+        <div id="logo1">
+        <img src="__PUBLIC__/Images/bigLogo.png" width="560" height="120" />
+        </div>
+        <!--<div id="logo1">
+          <img src="__PUBLIC__/Images/logo.png" width="60" height="60" />
+        </div>
+        <div id="logo2">
+          <p>大学生职业发展协会</p>
+        </div>-->
+        <br /><br />
+        <div id="topnav">
+          <ul>
+            <li class="active"><a href="index.html">首页</a></li>
+            <li>
+              <a href="#">栏目</a>
+<include file='Common:nav' />
+            </li>
+            <li><a href="#">关于我们</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br /><br />
+    
+
+<div class="wrapper col2">
+  <div id="featured_slide">
+    <div id="featured_content">
+      <ul>
+        <foreach name='top' item='v'>
+          <li><img src="{$v.pic_directory}" alt="" />
+          <div class="floater">
+              <h2>{$v.title}</h2>
+              <p class="readcontent">{$v.content}</p>
+              <p class="readmore"><a href="{$v.more}">更多详情 &raquo;</a></p>
+            </div>
+          </li>
+        </foreach>
+      </ul>
+    </div>
+    <!--<a href="javascript:void(0);" id="featured-item-prev"><img src="__PUBLIC__/Images/prev.png" alt="" /></a> <a href="javascript:void(0);" id="featured-item-next"><img src="images/next.png" alt="" /></a>--> 
+    </div>
+</div>
+
+<div class="wrapper col3">
+  <div id="container">
+    <div class="homepage">
+    <div class="left">
+    <h2>了解</h2>
+    <ul>
+      <li><a href="#">办公室</a></li>
+      <li><a href="#">调查研究部</a></li>
+      <li><a href="#">职业规划部</a></li>
+      <li><a href="#">讲座交流部</a></li>
+      <li><a href="#">外联部</a></li>
+      <li><a href="#">宣传部</a></li>
+      <li><a href="#">新闻组</a></li>
+      <li><a href="#">网络组</a></li>
+      <li><a href="#">主持组</a></li>
+      <li><a href="#">培训组</a></li>
+     </ul>
+    </div>
+    <div class="right">
+    <div class="rightword"><h2>职协动态</h2></div>
+      <ul>
+        <li>
+          <h2><img src="{$upLeft.pic_directory}" alt="" /></h2>
+            <div class="consword"><a href="{$upLeft.more}"><font color='green'>[新闻动态]</font>{$upLeft.content}</a></div>
+            <!--<p class="readmore"><a href="#">Continue Reading &raquo;</a></p>-->
+        </li>
+        <li>
+          <h2><img src="{$upMiddle.pic_directory}" alt="" /></h2>
+            <div class="consword"><a href="{$upMiddle.more}"><font color='green'>[调研报告]</font>{$upMiddle.content}</a></div>
+            <!--<p class="readmore"><a href="#">Continue Reading &raquo;</a></p>-->
+        </li>
+        <li class="last">
+          <h2><img src="{$upRight.pic_directory}" alt="" /></h2>
+          <div class="consword"><a href="{$upRight.more}"><font color='green'>[就业指导]</font>{$upRight.content}</a></div>
+          <!--<p class="readmore"><a href="#">Continue Reading &raquo;</a></p>-->
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <h2><img src="{$downLeft.pic_directory}" alt="" /></h2>
+            <div class="consword"><a href="{$downLeft.more}"><font color='green'>[视频频道]</font>{$downLeft.content}</a></div>
+            <!--<p class="readmore"><a href="#">Continue Reading &raquo;</a></p>-->
+        </li>
+        <li>
+          <h2><img src="{$downMiddle.pic_directory}" alt="" /></h2>
+            <div class="consword"><a href="{$downMiddle.more}"><font color='green'>[企业观光]</font>{$downMiddle.content}</a></div>
+            <!--<p class="readmore"><a href="#">Continue Reading &raquo;</a></p>-->
+        </li>
+        <li class="last">
+          <h2><img src="{$downRight.pic_directory}" alt="" /></h2>
+          <div class="consword"><a href="{$downRight.more}"><font color='green'>[职业信息]</font>{$downRight.content}</a></div>
+          <!--<p class="readmore"><a href="#">Continue Reading &raquo;</a></p>-->
+        </li>
+      </ul>
+      </div>
+      <br class="clear" />
+    </div>
+  </div>
+</div>
+
+<!-- ####################################################################################################### -->
+<div class="wrapper friend">
+{:W('Friends')}
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col5">
+<include file='Common:copyright' />
+</div>
+</body>
+</html>

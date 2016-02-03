@@ -1,0 +1,244 @@
+﻿/*
+Template Name: scdanet
+File: form.css
+Author: OS Templates
+Author: CMB
+*/
+
+.container{
+	margin-bottom: 20px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 20px;
+	padding-left: 0px;
+	
+}
+
+.content {
+	width: 698px;
+	border: 1px solid #2A2F34;
+	background-color: #FFFFFF;
+	font-family: "宋体";
+	float: left;
+}
+.place {
+	background-color: #2A2F34;
+	font-size: 14px;
+	color: #FFFFFF;
+	height: 20px;
+	padding-top: 6px;
+	padding-left: 8px;
+	padding-bottom: 2px;
+}
+#top .wrapper .container .content .inframe {
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.list {
+	margin-top: 25px;
+}
+.title {
+	font-size: 16px;
+	color: #999999;
+	font-weight: bold;
+	float: left;
+	width: 425px;
+	overflow: hidden;
+	vertical-align: bottom;
+}
+.updatetime {
+	float: right;
+	color: #900;
+	font-size: 12px;
+	font-family: Arial;
+	height: 14px;
+	padding-top: 4px;
+}
+.clicknum {
+	float: right;
+	color: #900;
+	font-size: 12px;
+	font-family: Arial;
+	height: 14px;
+	padding-top: 4px;
+	margin-right: 14px;
+}
+.listhead {
+	height: 20px;
+	position: relative;
+	background-color: #FFF;
+}
+.listfooter {
+	border: 1px dashed #CCCCCC;
+	font-size: 12px;
+	letter-spacing: 0.2em;
+	color: #2A2F34;
+	background-color: #EBEBEB;
+	margin-top: 5px;
+	padding: 5px;
+	font-family: "宋体";
+	line-height: 150%;
+}
+.listfooter a {
+ 	color: #666;
+	font-size:12px;
+	background-color: #E1E7DC;
+}
+
+.listfooter a:hover {
+	color: #900;
+}
+.title a {
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.listlast{
+	height: 30px;
+	padding-bottom: 7px;
+}
+
+.inframe_2 {
+	border: 1px solid #2A2F34;
+	background-color: #FFF;
+	display: block;
+	margin-bottom: 8px;
+}
+
+.title_2 {
+	background-color: #2A2F34;
+}
+
+#sidebar {
+	float: right;
+	width: 254px;
+	background-color: #C0ECFE;
+	height: 100%;
+}
+
+.list_2 {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	font-size: 14px;
+	color: #00923F;
+	margin-top: 5px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	word-break:keep-all;
+	height: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+.num {
+	float: left;
+	height: 16px;
+	width: 16px;
+	color: #FFF;
+	background-color: #900;
+	margin-right: 5px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.list_2 a {
+	color: #2A2F34;
+	font-size: 13px;
+}
+
+.list_2 a:hover {
+	color: #00923F;
+}
+.numelse {
+	float: left;
+	height: 16px;
+	width: 16px;
+	color: #FFF;
+	margin-right: 5px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #666;
+}
+.middlead {
+	height: 80px;
+}
+.list_3 {
+	width: 90px;
+	margin-top: 18px;
+	margin-right: 6px;
+	margin-left: 6px;
+	text-align: center;
+	height: 50px;
+	float: left;
+}
+.ys1 {
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+
+.list_3 a {
+	color: #666;
+}
+.listlast .page {
+	text-align: center;
+	padding: 7px;
+	font-family: "宋体";
+	font-size: 12px;
+}
+.listlast .page a {
+	color: #666;
+}
+
+.listlast .page a:hover {
+	color: #900;
+}
+.list_3 .middle {
+	margin-top: auto;
+	margin-right: 0px;
+	margin-bottom: auto;
+	margin-left: 0px;
+	text-align: center;
+	vertical-align: middle;
+	z-index: 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	overflow: hidden;
+	display: block;
+}
+
+#sidebar .inframe_1 .introduccon {
+	height: 260px;
+	padding-right: 10px;
+	padding-left: 12px;
+	padding-top: 5px;
+}
+
+.right_blackgrand {
+	font-size: 16px;
+	height: 26px;
+	background-image: url(../../images/job/upkj.png);
+	float: right;
+	width: 254px;
+	font-family: "微软雅黑";
+	height: 23px;
+	margin-bottom: -3px;
+	z-index: 5;
+	position: relative;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.inframe_1 {
+	background-image: url(../../images/kj.png);
+
+}
+
+.right_blackgrand .right_title {
+	padding-left: 13px;
+	color: #000;
+	padding-top: 3px;
+}

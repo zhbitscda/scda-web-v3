@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
+<head>
+<link rel="stylesheet" href="__PUBLIC__/Css/public.css" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+
+</head>
+<body>
+    <table class='table'>
+        <tr>
+            <th>ID</th>
+            <th>标题</th>
+            <th>点击次数</th>
+            <th>作者</th>
+            <th>发布时间</th>
+            <th>操作</th>
+        </tr>
+
+        <foreach name = 'assess' item = 'v'>
+            <tr>
+                <td width="8%">{$v.id}</td>
+                <td>
+                    {$v.title}
+                </td>
+                <td width="10%">{$v.click}</td>
+                <td width="12%">{$v.author}</td>
+                <td width="12%">{$v.time|date='Y-m-d H:i',###}</td>
+                <td width="13%">
+                    <if condition = 'ACTION_NAME eq "index" '>
+                        [<a href=''>修改</a>]
+                        [<a href="{:U(GROUP_NAME . '/Assess/toTrach',array('id' => $v['id'],'type' => 1))}">删除</a>]
+                    <else/>
+                        [<a href="{:U(GROUP_NAME . '/Assess/toTrach',array('id' => $v['id'],'type' => 0))}">还原</a>]
+                        [<a href="{:U(GROUP_NAME . '/Assess/delete',array('id' => $v['id']))}">彻底删除</a>]
+                    </if>
+                </td>
+            </tr>
+        </foreach>
+    </table>
+    <p>{$page}</p>
+</body>
+</html>
